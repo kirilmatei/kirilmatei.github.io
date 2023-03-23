@@ -364,7 +364,7 @@ button:hover {
     grid-auto-columns: 38%;
     gap: 1rem;
     overflow-x: auto;
-    overscroll-behavior: contain;
+    /* overscroll-behavior: contain; */
     /* padding: 100px; */
 }
 
