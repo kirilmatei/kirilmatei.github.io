@@ -1,0 +1,57 @@
+De ce Medexcom?
+Avantaj
+Suntem un furnizor de servicii complete. Portofoliul nostru de produse acoperă întregul sortiment. Stăm aproape de clienții noștri.
+Avantaj
+Construim relații bazate pe transparență, încredere și respect, orientate spre satisfacerea necesităților clienților noștri.
+Avantaj
+Îmbunătățirea continuă a calității serviciilor oferite, soluțiilor cu care venim în întampinarea nevoilor clienților noștrii.
+Avantaj
+Promitem să surprindem în continuare prin completarea gamei de produse oferite, prin servicii profesionale, acest proces continuă într-un ritm alert.
+
+
+Expert în tehnologiile medicale
+
+Adresa:
+str. Cuza Vodă 44a,
+MD-2060
+mun.Chișinău, Republica Moldova
++373 (60) 033 609
+info@medexcom.md
+
+Echipament
+Imagistică
+Consumabile medicale
+Secondlife
+Canon Secondlife
+Servicii și suport
+Servicile noastre
+Noutăți
+Evenimente
+
+Echipa Medexcom-Teh S.R.L împreună cu Ambasada SUA în Moldova au realizat un proiect în care astăzi 15 septemberie ambasadorul Hogan a prezentat o donație de 336 termometre infraroșu fără contact pentru utilizarea în școlile din Găgăuzia. 
+Odată cu redeschiderea școlilor și grădinițelor, sperăm că acest echipament va ajuta la păstrarea sănătății profesorilor, copiilor și a familiilor acestora.
+Donația de astăzi este doar cea mai recentă dintr-o serie de acțiuni pe care le-am întreprins pentru a ajuta Moldova în aceste vremuri fără precedent.
+
+Compania MEDEXCOM-TEH S.R.L., partener exclusiv al companiei Canon Medical Systems, oferă o gamă completă de soluții în imagistica medicală de diagnostic, inclusiv:
+
+Tomografie Computerizată;
+Imagistică prin Rezonanță Magnetică;
+Radiografie digitală;
+Ultrasonografie;
+Asistență informatică în domeniul medical din Republica Moldova.
+Misiunea noastră este de a oferi profesioniștilor din domeniul medical soluții tehnice unde calitatea și progresul sunt în tandem.
+
+Construim relații bazate pe transparență, încredere și respect, orientate spre satisfacerea necesităților clienților noștri.
+
+.btn_primary::before {
+    z-index: 1;
+    background-image: linear-gradient(to right top, rgb(1, 170, 202), rgb(0, 178, 190), rgb(0, 184, 164), rgb(21, 188, 129), rgb(97, 188, 89));
+
+
+
+
+    #footer {
+    padding-top: 65px;
+    min-height: 471px;
+    margin-top: -471px;
+    border-top: 3px solid rgb(47, 179, 148);
