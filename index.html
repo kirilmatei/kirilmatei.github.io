@@ -46,7 +46,7 @@
                 <!-- <li><a href="">Servicii</a></li> -->
                 <li><a href="#services">Despre noi</a></li>
                 <li><a href="#media">Proiecte</a></li>
-                <a class="cta" href="mailto: info@medexcom.md"><button>Contacteaza-ne</button></a>
+                <a class="cta" href="mailto: info@medexcom.md"><button class="menu-button">Contacteaza-ne</button></a>
                 <i class="fas far fa-times" onclick="closemenu()"></i>            
             </ul>
             <i class="fas far fa-bars" onclick="openmenu()"></i>
@@ -136,12 +136,6 @@
         </section>
         <div class="line"></div>
 
-        <!-- ------ NEWS -------  -->
-
-        <section class="news">
-            
-        </section>
-
         <!-- ------ SERVICES -------  -->
 
         <section id="services" class="section-services">
@@ -168,12 +162,6 @@
                         <p>Proiecte castigate</p>
                     </div>
                 </div>
-                <!-- <div class="card">
-                    <div class="service">
-                        <h2>19</h2>
-                        <p>Institutii medicale aprovizionate</p>
-                    </div>
-                </div> -->
             </div>
         </section>
 
@@ -332,65 +320,56 @@
         <!-- ------ MEDIA-SCROLLER -------  -->
 
         <section id="media" class="section-media snaps-inline">
+            <h1 class="media-title">Noutati</h1>
             <div class="media-wrapper">
                 <div class="media-element">
                     <div class="image-wrapper">
                         <img src="/images/media1.png" alt="">
-                    </div>
-                    <div class="text-wrapper">      
-                        <p class="title">Canon Viamo Centrului CoVID-19 de la Moldexpo Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, eos!</p>
-                    </div>
-                </div>
-                <div class="media-element">
-                    <div class="image-wrapper">
-                        <img src="/images/media1.png" alt="">
-                    </div>
-                    <div class="text-wrapper">      
-                        <p class="title">Canon Viamo Centrului CoVID-19 de la Moldexpo</p>
+                        <!-- <div class="overlay"></div> -->
+                        <div class="text-wrapper">
+                            <p class="title">Canon Viamo Centrului CoVID-19 de la Moldexpo Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, eos!</p>
+                        </div>
                     </div>
                 </div>
                 <div class="media-element">
                     <div class="image-wrapper">
                         <img src="/images/media1.png" alt="">
-                    </div>
-                    <div class="text-wrapper">      
-                        <p class="title">Canon Viamo Centrului CoVID-19 de la Moldexpo</p>
-                    </div>
-                </div>
-                <div class="media-element">
-                    <div class="image-wrapper">
-                        <img src="/images/media1.png" alt="">
-                    </div>
-                    <div class="text-wrapper">      
-                        <p class="title">Canon Viamo Centrului CoVID-19 de la Moldexpo</p>
+                        <!-- <div class="overlay"></div> -->
+                        <div class="text-wrapper">
+                            <p class="title">Canon Viamo Centrului CoVID-19 de la Moldexpo Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, eos!</p>
+                        </div>
                     </div>
                 </div>
                 <div class="media-element">
                     <div class="image-wrapper">
                         <img src="/images/media1.png" alt="">
+                        <!-- <div class="overlay"></div> -->
+                        <div class="text-wrapper">
+                            <p class="title">Canon Viamo Centrului CoVID-19 de la Moldexpo Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, eos!</p>
+                        </div>
                     </div>
-                    <div class="text-wrapper">      
-                        <p class="title">Canon Viamo Centrului CoVID-19 de la Moldexpo</p>
+                </div>
+                <div class="media-element">
+                    <div class="image-wrapper">
+                        <img src="/images/media1.png" alt="">
+                        <!-- <div class="overlay"></div> -->
+                        <div class="text-wrapper">
+                            <p class="title">Canon Viamo Centrului CoVID-19 de la Moldexpo Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, eos!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="media-element">
+                    <div class="image-wrapper">
+                        <img src="/images/media1.png" alt="">
+                        <!-- <div class="overlay"></div> -->
+                        <div class="text-wrapper">
+                            <p class="title">Canon Viamo Centrului CoVID-19 de la Moldexpo Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, eos!</p>
+                        </div>
                     </div>
                 </div>
                 </div>
             </div>
         </section>
-
-         <!-- ------ CATALOGUE -------  -->
-        <!-- <section class="catalogue">
-            <div class="column-image">
-                <img src="/images/catalogue-image-blank.jpeg" alt="">
-            </div>
-            <div class="column-text">
-                <div class="column-text-content">
-                    <h2>Catalogul Produselor</h2>
-                    <p>Vezi tot portofoliul nostru de produse</p>
-                    <a class="cta" href=""><button>Downloadeaza</button></a>
-                </div>
-            </div>
-        </section> -->
-
 
         <!-- ------ CONTACT-FORM -------  -->
         <section class="contact-form">
@@ -475,23 +454,26 @@
         }
     </script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-     <!-- Initialize Swiper -->
+    <!-- Initialize Swiper -->
     <script type="module">
         // import Swiper from 'swiper/swiper-bundle.esm.js';
         // import 'swiper/swiper-bundle.css';
         var swiper = new Swiper('.swiper', {
-        effect: 'coverflow',
-        grabCursor: true,
-        centeredSlides: true,
-        slidesPerView: 'auto',
-        coverflowEffect: {
-            rotate: 0,
-            stretch: 0,
-            depth: 100,
-            modifier: 2 ,
-            slideShadows: true,
-        },
-        loop: true
+            effect: 'coverflow',
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            coverflowEffect: {
+                rotate: 0,
+                stretch: 0,
+                depth: 100,
+                modifier: 2,
+                slideShadows: true,
+            },
+            loop: true,
+            autoplay: {
+                delay: 6000, // Time delay in milliseconds (3 seconds)
+            },
         });
     </script>
 
