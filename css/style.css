@@ -67,13 +67,9 @@ svg {
 .nav_links li a:hover {
     color: white
 }
-.nav_links .fa-times {
-    position: absolute;
-    top: 15px;
-    right: 20px;
-    font-size: 1.5rem;
-    cursor: pointer;
-}
+ nav .fas{
+    display: none;
+ }
 
 .menu-button {
     display: block;
