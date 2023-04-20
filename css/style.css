@@ -704,7 +704,7 @@ form textarea {
 
 .footer .grid-columns {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 50%;
+    grid-template-columns: 1fr 1fr 1fr;
     padding: 20px 100px;
     font-size: small;
 }
@@ -820,7 +820,7 @@ nav .fas{
     /* -------GREETING-------- */
 
     .greeting {
-        background-image: url("../images/galan_img.png");
+        background-image: url("../images/greeting_backgroung.png");
         background-size: cover;
         background-position: center;
         display: flex;
