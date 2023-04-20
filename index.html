@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/71ef78ff9e.js" crossorigin="anonymous"></script>
     <title>Medexcom</title>
-    <link rel="icon"href="favicon.svg">
+    <!-- <link rel="icon"href="favicon.svg"> -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -42,11 +43,11 @@
         <nav>
             <ul class="nav_links" id="side-menu">
                 <!-- <li><a href="canon.html">Canon</a></li> -->
-                <li><a href="#gallery">Echipament</a></li>
+                <li><a href="#gallery" onclick="closemenu()">Echipament</a></li>
                 <!-- <li><a href="">Servicii</a></li> -->
-                <li><a href="#services">Despre noi</a></li>
-                <li><a href="#media">Proiecte</a></li>
-                <a class="cta" href="mailto: info@medexcom.md"><button class="menu-button">Contacteaza-ne</button></a>
+                <li><a href="#services" onclick="closemenu()">Despre noi</a></li>
+                <li><a href="#media" onclick="closemenu()">Proiecte</a></li>
+                <a class="cta" href="mailto: info@medexcom.md" onclick="closemenu()"><button class="menu-button">Contactați-ne</button></a>
                 <i class="fas far fa-times" onclick="closemenu()"></i>            
             </ul>
             <i class="fas far fa-bars" onclick="openmenu()"></i>
@@ -57,7 +58,7 @@
 
         <section class="greeting">
             <div>
-                <h2>Experti în tehnologiile medicale</h2>
+                <h2>Experți în tehnologiile medicale</h2>
             </div>
         </section>
 
@@ -79,40 +80,40 @@
         <section id="gallery" class="gallery">
             <div class="card">
                 <div class="card-text">
-                    <h1 class="title">Rezonanta Magnetica</h1>
+                    <h1 class="title">Rezonanță Magnetică</h1>
                     <p class="sub-title">Sisteme MRI Canon</p>
-                    <a href="">Afla mai mult ></a>
+                    <a href="">Aflați mai mult ></a>
                 </div>
                 <div class="card-image">
-                    <img src="../images/ct/tsx305.jpg" alt="">
+                    <img style="height: 105%" src="../images/mri2.png" alt="">
                 </div>
             </div>
             <div class="card">
                 <div class="card-text">
-                    <h1 class="title">Tomogragfie Computerizata</h1>
+                    <h1 class="title">Tomografie Computerizată</h1>
                     <p class="sub-title">Sisteme CT Canon</p>
-                    <a href="">Afla mai mult ></a>
+                    <a href="">Aflați mai mult ></a>
                 </div>
                 <div class="card-image">
-                    <img src="../images/ct/tsx305.jpg" alt="">
+                    <img style="height: 110%" src="../images/ct/ct_image1.jpg" alt="">
                 </div>
             </div><div class="card">
                 <div class="card-text">
                     <h1 class="title">Ultrasunet</h1>
                     <p class="sub-title">Sisteme USG Canon</p>
-                    <a href="">Afla mai mult ></a>
+                    <a href="">Aflați mai mult ></a>
                 </div>
                 <div class="card-image">
                     <img style=" object-fit: contain"src="../images/ultrasound/aplio800i.png" alt="">
                 </div>
             </div><div class="card">
                 <div class="card-text">
-                    <h1 class="title">Rezonanta Magnetica</h1>
-                    <p class="sub-title">Sisteme MRI Canon</p>
-                    <a href="">Afla mai mult ></a>
+                    <h1 class="title">X-Ray</h1>
+                    <p class="sub-title">Sisteme x-ray Canon</p>
+                    <a href="">Aflați mai mult ></a>
                 </div>
                 <div class="card-image">
-                    <img style=" object-fit: contain"src="../images/ultrasound/aplio800i.png" alt="">
+                    <img style=" object-fit: contain; height: 80%"src="../images/xray1.jpeg" alt="">
                 </div>
             </div><div class="card">
                 <div class="card-text">
@@ -145,21 +146,21 @@
                     <div class="service">
                         <!-- <i class="fa fa-regular fa-hospital"></i> -->
                         <h2>25</h2>
-                        <p>ani in sectorul medical</p>
+                        <p>ani în sectorul medical</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="service">
                         <!-- <i class="fa fa-regular fa-handshake"></i> -->
                         <h2>130</h2>
-                        <p>Echipamente instalate</p>
+                        <p>echipamente medicale instalate</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="service">
                         <!-- <i class="fa fa-regular fa-handshake"></i> -->
                         <h2>97</h2>
-                        <p>Proiecte castigate</p>
+                        <p>proiecte câștigate</p>
                     </div>
                 </div>
             </div>
@@ -180,7 +181,7 @@
                                 within the agreed terms, the equipment was always delivered in a good state
                                 
                                 with no fuither complains overtime of defective or missing items. Medexcom-
-                                Teh sets an exemplary model to which I would like all companies to aspire.</p>
+                            Teh sets an exemplary model to which I would like all companies to aspire.</p>
                             <div class="details">
                                 <div class="img-box">
                                     <img src="images/dos-logo.webp" alt="">
@@ -212,11 +213,11 @@
                     <div class="testimonial-box">
                         <i class="fa fal fa-quote-right"></i>
                          <div class="content">
-                            <p>Compania Medexcom-Teh S. R. L. intotdeauna demons treazб fl exibilitate,
-                                gi receptivitate la solicitlrile institutului, inclusiv prin organizarea de instruiri cu
-                                clinice in СТ neruperfuzie а specialiqtilor din sec{ia imagisticб, qi reuEeqte sб asigure
-                                func{ionare 9i Йrй intreruperi de lungб durаtб а tomografului computerizat Т
-                                Aquilion Prime сu 80 de slice-uri, necбtind la faptul сi iпсirсiturа acestuia este uпа
+                            <p>Compania Medexcom-Teh S.R.L. întotdeauna demonstrează flexibilitate,
+                                și receptivitate la solicitările institutului, inclusiv prin organizarea de instruiri cu
+                                clinice în СТ neruperfuzie а specialiștilor din secția imagistică, și reușește să asigure
+                                funcționare 9i Йrй întreruperi de lungă durаtă а tomografului computerizat Т
+                                Aquilion Prime сu 80 de slice-uri, necătînd la faptul сi iпсirсiturа acestuia este uпа
                                 sporiti, de circa 50-60 pacien{i ре zi, iar durata de exploatare а depйgit deja 7 апi de
                                 Сu certitudine rесоmапdбm Medexcom-Teh S.R.L. qi intreaga есhiрб а
                                 calitate de uп furnizor de iпсrеdеrе al dispozitivelor medicale calitative in ;i а serv</p>
@@ -225,7 +226,7 @@
                                     <img src="images/doc2.jpeg" alt="">
                                 </div>
                                 <h3>Mihail Ciocanu - Director <br><span>MINSтIтUтIл мЕDlсо_SлNtтлRА PUBLICД
-                                    INSTITUTUL DE МЕDIСINД URGЕNТД</span></h3>
+                                    INSTITUTUL DE MEDICINĂ URGENȚĂ</span></h3>
                             </div>
                         </div>
                     </div>
@@ -291,7 +292,7 @@
         <!-- ------ CONTACT-US -------  -->
 
         <section class="section-contact">
-            <h1>Contactati-ne</h1>
+            <h1>Contactați-ne</h1>
             <div class="column-wrapper">
                 <div class="column">
                     <div class="contact-text">
@@ -299,7 +300,7 @@
                         <div class="column-text">
                             <div class="row">
                                 <h3>+373 022 22 22</h3>
-                                <p>Sunati-ne. Noi va vom consulta despre produsele noastre</p>
+                                <p>Sunați-ne. Noi vă vom consulta despre produsele noastre</p>
                             </div>
                         </div>
                     </div>
@@ -310,7 +311,7 @@
                         <div class="column-text">
                             <div class="row">
                                 <h3><a href="mailto: info@medexcom.md">info@medexcom.md</a> </h3>
-                                <p>Luati legatura cu expertii nostri prin e-mail</p>
+                                <p>Luați legătura cu experții nostri prin e-mail</p>
                             </div>
                         </div>
                     </div>
@@ -320,20 +321,20 @@
         <!-- ------ MEDIA-SCROLLER -------  -->
 
         <section id="media" class="section-media snaps-inline">
-            <h1 class="media-title">Noutati</h1>
+            <h1 class="media-title">Noutăți</h1>
             <div class="media-wrapper">
                 <div class="media-element">
                     <div class="image-wrapper">
-                        <img src="/images/media1.png" alt="">
+                        <img src="/images/media/canon-viamo.png" alt="">
                         <!-- <div class="overlay"></div> -->
                         <div class="text-wrapper">
-                            <p class="title">Canon Viamo Centrului CoVID-19 de la Moldexpo Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, eos!</p>
+                            <p class="title">336 termometre infraroșu fără contact pentru școlile din Găgăuzia.</p>
                         </div>
                     </div>
                 </div>
                 <div class="media-element">
                     <div class="image-wrapper">
-                        <img src="/images/media1.png" alt="">
+                        <img src="/images/media/us-embassy.png" alt="">
                         <!-- <div class="overlay"></div> -->
                         <div class="text-wrapper">
                             <p class="title">Canon Viamo Centrului CoVID-19 de la Moldexpo Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, eos!</p>
@@ -376,16 +377,16 @@
             <div class="contact-wrapper">
                 <div class="contact-box">
                     <form action="">
-                        <h3>Contactati-ne</h3>
+                        <h3>Contactați-ne</h3>
                         <input type="text" name="" id="name" placeholder="Nume, Prenume" required>
                         <input type="email" name="" id="email" placeholder="Email" required>
                         <input type="text" name="" id="phone" placeholder="Telefon de contact" >
                         <textarea id="message" rows="4" placeholder="Cum va putem ajuta ?"></textarea>
-                        <button type="submit">Trimite</button>
+                        <button type="submit">Trimiteți</button>
                     </form>
                     <div class="address">
                         <h3>Medexcom-Teh SRL</h3>
-                        <p>str. Cuza Voda 33 <br> mun.Chisinau <br> Republica Moldova</p>
+                        <p>str. Cuza Vodă 44 <br> mun.Chisinau <br> Republica Moldova</p>
                         <p>+373(22)222222</p>
                         <p>info@medexcom.md</p>
 
